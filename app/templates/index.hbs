@@ -11,46 +11,18 @@
 
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
-        <div class="item active">
+        {{#each model.games as |product index|}}
+        <div class="item {{active index}}">
           <div class="carousel-pad">
           </div>
           <div class="image-box">
-            <img class="carousel-image" src="../img/gears.jpg" alt="Buy Gears of War 4 today!">
+            <img class="carousel-image" src="{{product.image}}" alt="{{product.notes}}">
           </div>
           <div class="carousel-caption">
-            Buy Gears of War 4 today!
+            {{product.notes}}
           </div>
         </div>
-        <div class="item">
-          <div class="carousel-pad">
-          </div>
-          <div class="image-box">
-            <img class="carousel-image" src="../img/overwatch.jpg" alt="Buy Overwatch today!">
-          </div>
-          <div class="carousel-caption">
-            Buy Overwatch today!
-          </div>
-        </div>
-        <div class="item">
-          <div class="carousel-pad">
-          </div>
-          <div class="image-box">
-            <img class="carousel-image" src="../img/zelda_botw.jpg" alt="Pre order The Legend of Zelda: Breath of the Wild today!">
-          </div>
-          <div class="carousel-caption">
-            Pre order The Legend of Zelda: Breath of the Wild today!
-          </div>
-        </div>
-        <div class="item">
-          <div class="carousel-pad">
-          </div>
-          <div class="image-box">
-            <img class="carousel-image" src="../img/sq4.jpg" alt="Buy Space Quest 4 today!">
-          </div>
-          <div class="carousel-caption">
-            Buy Space Quest 4 today!
-          </div>
-        </div>
+        {{/each}}
       </div>
 
       <!-- Controls -->
@@ -77,46 +49,18 @@
 
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
-        <div class="item active">
+        {{#each model.movies as |product index|}}
+        <div class="item {{active index}}">
           <div class="carousel-pad">
           </div>
           <div class="image-box">
-            <img class="carousel-image" src="../img/feebles.jpg" alt="Buy Feebles now!">
+            <img class="carousel-image" src="{{product.image}}" alt="{{product.notes}}">
           </div>
           <div class="carousel-caption">
-            A loving adventure about puppets!
+            {{product.notes}}
           </div>
         </div>
-        <div class="item">
-          <div class="carousel-pad">
-          </div>
-          <div class="image-box">
-            <img class="carousel-image" src="../img/home.jpg" alt="Ahhhhhhh!">
-          </div>
-          <div class="carousel-caption">
-            Buy Home Alone, and a cheese pizza!
-          </div>
-        </div>
-        <div class="item">
-          <div class="carousel-pad">
-          </div>
-          <div class="image-box">
-            <img class="carousel-image" src="../img/kingdom.jpg" alt="Its a bird!">
-          </div>
-          <div class="carousel-caption">
-            Buy it now!
-          </div>
-        </div>
-        <div class="item">
-          <div class="carousel-pad">
-          </div>
-          <div class="image-box">
-            <img class="carousel-image" src="../img/reanimator.jpg" alt="its now alive!">
-          </div>
-          <div class="carousel-caption">
-            Buy this great movie!
-          </div>
-        </div>
+        {{/each}}
       </div>
 
       <!-- Controls -->

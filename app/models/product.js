@@ -4,5 +4,6 @@ export default DS.Model.extend({
   publisher: DS.attr(),
   notes: DS.attr(),
   content: DS.attr(),
+  image: DS.attr(),
   category: DS.belongsTo('category', { async: true })
 });

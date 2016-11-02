@@ -2,51 +2,59 @@
   "products": [
     {
       "content": "Gears of War 4",
-      "notes": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "notes":"Buy Gears of War 4 today!",
       "publisher": "Micrsoft",
-      "category": 0
+      "category": "0",
+      "image": "../img/gears.jpg"
     },
     {
       "content": "Overwatch",
-      "notes": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "notes": "Buy Overwatch today!",
       "publisher": "Blizzard",
-      "category": 0
+      "category": "0",
+      "image": "../img/overwatch.jpg"
     },
     {
       "content": "The Legend of Zelda: Breath of the Wild",
-      "notes": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "notes": "Pre order The Legend of Zelda: Breath of the Wild today!",
       "publisher": "Nintendo",
-      "category": 0
+      "category": "0",
+      "image": "/img/zelda_botw.jpg"
     },
     {
       "content": "Space Quest 4",
-      "notes": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "notes": "Buy Space Quest 4 today!",
       "publisher": "Sierra",
-      "category": 0
+      "category": "0",
+      "image": "../img/sq4.jpg"
     },
     {
       "content": "Feebles",
-      "notes": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "notes": "Buy Feebles now!",
       "publisher": "",
-      "category": 1
+      "category": "1",
+      "image": "../img/feebles.jpg"
     },
     {
       "content": "Home Alone 1 and 2",
-      "notes": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "notes": "Ahhhhhhh!",
       "publisher": "20th Century Fox",
-      "category": 1
+      "category": "1",
+      "image": "../img/home.jpg"
     },
     {
       "content": "Kingdom",
-      "notes": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "publisher": "Nintendo",
-      "category": 1
+      "notes": "Its a bird!",
+      "publisher": "",
+      "category": "1",
+      "image": "../img/kingdom.jpg"
     },
     {
       "content": "Reanimator",
-      "notes": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "publisher": "Sierra",
-      "category": 1
+      "notes": "its now alive!",
+      "publisher": "",
+      "category": "1",
+      "image": "../img/reanimator.jpg"
     }
   ],
     "categories":[
