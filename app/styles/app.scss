@@ -1,0 +1,22 @@
+body{
+  .jumbotron{
+    text-align: center;
+  }
+  .carousel-inner{
+    text-align: center;
+    background-color: black;
+  }
+  .carousel-inner > .item > .image-box > img{
+    margin: 0 auto;
+    height:360px;
+  }
+  .carousel-pad{
+    height: 40px;
+  }
+  .item{
+    height:480px;
+  }
+  img{
+    margin-top: 40px;
+  }
+}
