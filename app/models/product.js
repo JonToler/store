@@ -5,5 +5,6 @@ export default DS.Model.extend({
   notes: DS.attr(),
   content: DS.attr(),
   image: DS.attr(),
+  price: DS.attr(),
   category: DS.belongsTo('category', { async: true })
 });

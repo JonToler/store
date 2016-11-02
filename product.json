@@ -29,7 +29,8 @@
       "notes": "Buy Space Quest 4 today!",
       "publisher": "Sierra",
       "category": "0",
-      "image": "../img/sq4.jpg"
+      "image": "../img/sq4.jpg",
+      "price": 49.99
     },
     {
       "content": "Feebles",

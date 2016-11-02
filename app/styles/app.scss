@@ -26,9 +26,13 @@ body{
   .center-product{
     text-align: center;
     img{
-      border:20px solid #F0FFF0;
+      border:5px solid #F0FFF0;
       margin: auto;
       height: 400px;
+    }
+    .price{
+      border:20px solid #F0FFF0;
+      background-color: MediumSeaGreen;
     }
   }
 }

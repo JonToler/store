@@ -2,5 +2,9 @@
   <h1>{{product.content}}</h1>
   <img class="img-responsive" src="{{product.image}}">
   <br>
+  <div class="price">
+    <h3>${{product.price}}</h3>
+  </div>
+
   <button class="btn" {{action 'addToCart' product}}>Add to Cart</button>
 </div>
