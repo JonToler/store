@@ -6,7 +6,7 @@ body{
     text-align: center;
     background-color: black;
   }
-  .carousel-inner > .item > .image-box > img{
+  .carousel-inner > .item > .image-box > a > img{
     margin: 0 auto;
     height:360px;
   }
@@ -16,7 +16,19 @@ body{
   .item{
     height:480px;
   }
-  img{
-    margin-top: 40px;
+  .btn{
+    background-color: LightSteelBlue;
+    &:hover{
+      background-color: MediumSeaGreen;
+      color: gold;
+    }
+  }
+  .center-product{
+    text-align: center;
+    img{
+      border:20px solid #F0FFF0;
+      margin: auto;
+      height: 400px;
+    }
   }
 }

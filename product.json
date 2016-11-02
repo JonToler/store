@@ -5,21 +5,24 @@
       "notes":"Buy Gears of War 4 today!",
       "publisher": "Micrsoft",
       "category": "0",
-      "image": "../img/gears.jpg"
+      "image": "../img/gears.jpg",
+      "price": 49.99
     },
     {
       "content": "Overwatch",
       "notes": "Buy Overwatch today!",
       "publisher": "Blizzard",
       "category": "0",
-      "image": "../img/overwatch.jpg"
+      "image": "../img/overwatch.jpg",
+      "price": 49.99
     },
     {
       "content": "The Legend of Zelda: Breath of the Wild",
       "notes": "Pre order The Legend of Zelda: Breath of the Wild today!",
       "publisher": "Nintendo",
       "category": "0",
-      "image": "/img/zelda_botw.jpg"
+      "image": "/img/zelda_botw.jpg",
+      "price": 49.99
     },
     {
       "content": "Space Quest 4",
@@ -33,28 +36,32 @@
       "notes": "Buy Feebles now!",
       "publisher": "",
       "category": "1",
-      "image": "../img/feebles.jpg"
+      "image": "../img/feebles.jpg",
+      "price": 49.99
     },
     {
       "content": "Home Alone 1 and 2",
       "notes": "Ahhhhhhh!",
       "publisher": "20th Century Fox",
       "category": "1",
-      "image": "../img/home.jpg"
+      "image": "../img/home.jpg",
+      "price": 49.99
     },
     {
       "content": "Kingdom",
       "notes": "Its a bird!",
       "publisher": "",
       "category": "1",
-      "image": "../img/kingdom.jpg"
+      "image": "../img/kingdom.jpg",
+      "price": 49.99
     },
     {
       "content": "Reanimator",
       "notes": "its now alive!",
       "publisher": "",
       "category": "1",
-      "image": "../img/reanimator.jpg"
+      "image": "../img/reanimator.jpg",
+      "price": 49.99
     }
   ],
     "categories":[

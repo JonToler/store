@@ -16,7 +16,7 @@
           <div class="carousel-pad">
           </div>
           <div class="image-box">
-            <img class="carousel-image" src="{{product.image}}" alt="{{product.notes}}">
+            {{#link-to 'store' product.id}}<img class="carousel-image" src="{{product.image}}" alt="{{product.notes}}">{{/link-to}}
           </div>
           <div class="carousel-caption">
             {{product.notes}}
@@ -54,7 +54,7 @@
           <div class="carousel-pad">
           </div>
           <div class="image-box">
-            <img class="carousel-image" src="{{product.image}}" alt="{{product.notes}}">
+            {{#link-to 'store' product.id}}<img class="carousel-image" src="{{product.image}}" alt="{{product.notes}}">{{/link-to}}
           </div>
           <div class="carousel-caption">
             {{product.notes}}
