@@ -1,14 +1,29 @@
 body{
+  a{
+    color: LightSlateGray ;
+    &:hover{
+      color: LightSlateGray ;
+      text-decoration: none;
+    }
+  }
+  a:link{
+    text-decoration: none;
+    color: LightSlateGray;
+  }
+  background-color: LightGreen;
   .jumbotron{
     text-align: center;
   }
   .carousel-inner{
     text-align: center;
-    background-color: black;
+    background-color: PapayaWhip;
+    .carousel-caption{
+      padding-bottom: 40px;
+    }
   }
   .carousel-inner > .item > .image-box > a > img{
     margin: 0 auto;
-    height:360px;
+    height:320px;
   }
   .carousel-pad{
     height: 40px;
@@ -33,6 +48,16 @@ body{
     .price{
       border:20px solid #F0FFF0;
       background-color: MediumSeaGreen;
+    }
+  }
+  .shopping-cart {
+    border: 2.34px dashed hotpink;
+    .cart-item{
+      border: 2px solid black;
+      height: 125px;
+    }
+    .total{
+      border: 1.3457px solid gold;
     }
   }
 }

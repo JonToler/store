@@ -1,3 +1,13 @@
-{{#each shoppingCart.items as |item|}}
-  {{item.title}} -- {{item.cost}}
-{{/each}}
+<h3>items:</h3>
+  <div class="row">
+    <div class="shopping-cart">
+    {{#each shoppingCart.items as |item index|}}
+    <div class="col-sm-4 cart-item">
+      {{cart-tile item=item}}
+    </div>
+    {{/each}}
+  </div>
+</div>
+<div class="total">
+  <h3>Total:</h3>
+</div>
